@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="LLM" width="60%" alt="CAREER-TRACK-logo">
-</p>
+
 <p align="center">
     <h1 align="center">CAREER-TRACK</h1>
 </p>
