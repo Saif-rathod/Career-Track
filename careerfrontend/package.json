@@ -1,0 +1,32 @@
+{
+  "name": "careerfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:next\" \"npm run dev:django\"",
+    "dev:next": "next dev",
+    "dev:django": "cd ../careerbackend && python manage.py runserver",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "framer-motion": "^11.5.4",
+    "next": "14.2.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "simplex-noise": "^4.0.3",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
