@@ -16,7 +16,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -24,7 +24,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/profile"
                 className="hover:text-white transition-colors duration-300"
               >
                 Profile
@@ -32,7 +32,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/Jobs"
                 className="hover:text-white transition-colors duration-300"
               >
                 Jobs
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
