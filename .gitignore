@@ -1,1 +1,49 @@
+# Node modules
+/node_modules/
+
+# Build output
+/.next/
+/out/
+/dist/
+
+# Log files
+*.log
+
+# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# npm
+package-lock.json
+
+# yarn
+yarn.lock
+
+# Next.js
+.next/
+
+# Tailwind CSS
+.tailwind/
+
+# Jest
+coverage/
