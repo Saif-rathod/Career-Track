@@ -15,6 +15,6 @@ urlpatterns = [
     path('', home, name='root'),  # Root URL
     path('home/', home, name='home'),  # Home URL
     path('career/', include(router.urls)),  # API endpoints
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('career/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('career/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]

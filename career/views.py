@@ -2,10 +2,10 @@ from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated
 from .models import StudentProfile, JobListing, Feedback
 from .serializers import StudentProfileSerializer, JobListingSerializer, FeedbackSerializer
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse("Welcome to the Career API!")
+    return render(request,"home.html")
 
 class StudentProfileViewSet(viewsets.ModelViewSet):
     queryset = StudentProfile.objects.all()
